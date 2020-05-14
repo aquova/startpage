@@ -4,9 +4,7 @@
 }
 
 html {
-    /* background-color: #181a1b; */
     font-family: "RobotoMono-Medium", sans-serif;
-
     background: url("assets/wallpapers/desert.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +50,12 @@ input {
     font-size: 20px;
 }
 
-::placeholder { /* Chrome, Firefox, Safari */
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
     opacity: 1;
 }
 
